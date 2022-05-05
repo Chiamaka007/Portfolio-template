@@ -399,22 +399,22 @@ h3 {
 .work_container {
     width: 300px;
     height: 200px;
-    border-radius: 30px;
-    border: 3px solid #fff;
+    
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    color: white;
     padding: 1.4rem;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.work_container:nth-child(1) {
-    background: url(/assets/1.png);
-    background-size: cover;
+/* .work_container:nth-child(1) {
+    /* background: url(/assets/1.png); */
+    
 
-}
+/* }
 .work_container:nth-child(2) {
     background: url(/assets/2.png);
     background-size: cover;
@@ -426,14 +426,14 @@ h3 {
 .work_container:nth-child(4) {
     background: url(/assets/4.png);
     background-size: cover;
-}
+} */ 
 .work_container p:nth-child(1) {
     font-size: 1rem;
     color: #18cdca;
     font-weight: 500;
 }
 .work_container p:nth-child(2) {
-    margin-top: 0.3rem;
+    margin-top: 2rem;
     font-size: 0.7rem;
 }
 .work_container a {
